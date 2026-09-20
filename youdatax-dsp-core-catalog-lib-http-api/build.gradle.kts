@@ -10,7 +10,7 @@
  *  Contributors:
  *       Bayerische Motoren Werke Aktiengesellschaft (BMW AG) - initial API and implementation
  *       Cofinity-X - make DSP versions pluggable
- *
+ * \data-protocols\dsp\dsp-lib\dsp-catalog-lib\dsp-catalog-http-api-lib
  */
 
 plugins {
