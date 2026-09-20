@@ -9,7 +9,7 @@
  *
  *  Contributors:
  *       Bayerische Motoren Werke Aktiengesellschaft (BMW AG) - initial API and implementation
- *
+ * \data-protocols\dsp\dsp-lib\dsp-negotiation-lib\dsp-negotiation-http-api-lib
  */
 
 plugins {
