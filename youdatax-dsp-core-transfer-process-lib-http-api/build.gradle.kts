@@ -9,7 +9,7 @@
  *
  *  Contributors:
  *       Bayerische Motoren Werke Aktiengesellschaft (BMW AG) - initial API and implementation
- *
+ * \data-protocols\dsp\dsp-lib\dsp-transfer-process-lib\dsp-transfer-process-http-api-lib
  */
 
 plugins {
