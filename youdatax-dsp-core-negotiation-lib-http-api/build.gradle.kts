@@ -9,8 +9,7 @@
  *
  *  Contributors:
  *       Bayerische Motoren Werke Aktiengesellschaft (BMW AG) - initial API and implementation
- *       Cofinity-X - make DSP versions pluggable
- *
+ * \data-protocols\dsp\dsp-lib\dsp-negotiation-lib\dsp-negotiation-http-api-lib
  */
 
 plugins {
@@ -24,12 +23,7 @@ dependencies {
     api(project(":spi:common:json-ld-spi"))
     api(project(":spi:common:participant-context-single-spi"))
 
-    testImplementation(project(":core:common:lib:query-lib"))
-    testImplementation(project(":core:common:lib:transform-lib"))
-    testImplementation(testFixtures(project(":extensions:common:http:jersey-core")))
-    testImplementation(libs.restAssured)
-
-    testFixturesApi(project(":core:common:junit"))
+    testFixturesImplementation(project(":core:common:junit"))
     testFixturesImplementation(testFixtures(project(":extensions:common:http:jersey-core")))
     testFixturesImplementation(libs.restAssured)
 }

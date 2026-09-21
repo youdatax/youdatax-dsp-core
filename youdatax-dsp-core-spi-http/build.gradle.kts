@@ -9,15 +9,23 @@
  *
  *  Contributors:
  *       Fraunhofer-Gesellschaft zur Förderung der angewandten Forschung e.V. - initial API and implementation
- *
+ * \data-protocols\dsp\dsp-http-spi
  */
 
 plugins {
     `java-library`
+    `java-test-fixtures`
 }
 
 dependencies {
-    api(project(":spi:control-plane:control-plane-spi"))
+    api(project(":spi:common:core-spi"))
+    api(project(":spi:common:policy:request-policy-context-spi"))
+    api(project(":data-protocols:dsp:dsp-spi"))
 
-    implementation(project(":extensions:common:json-ld"))
+    api(libs.okhttp)
+    api(libs.jakarta.json.api)
+    api(libs.jakarta.rsApi)
+
+    testFixturesApi(project(":core:common:junit"))
+    testFixturesApi(project(":spi:common:json-ld-spi"))
 }

@@ -9,7 +9,7 @@
  *
  *  Contributors:
  *       Bayerische Motoren Werke Aktiengesellschaft (BMW AG) - initial API and implementation
- *
+ * \data-protocols\dsp\dsp-lib\dsp-negotiation-lib\dsp-negotiation-validation-lib
  */
 
 plugins {
@@ -17,13 +17,8 @@ plugins {
 }
 
 dependencies {
-    api(project(":spi:common:json-ld-spi"))
     api(project(":data-protocols:dsp:dsp-spi"))
-    api(project(":spi:control-plane:transfer-spi"))
-    implementation(project(":core:common:lib:transform-lib"))
+    implementation(project(":core:common:lib:validator-lib"))
 
     testImplementation(project(":core:common:junit"))
-    testImplementation(project(":extensions:common:json-ld"))
-    testImplementation(testFixtures(project(":core:common:lib:json-ld-lib")))
-    
 }

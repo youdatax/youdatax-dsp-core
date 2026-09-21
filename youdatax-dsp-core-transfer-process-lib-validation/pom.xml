@@ -1,0 +1,30 @@
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 https://maven.apache.org/xsd/maven-4.0.0.xsd">
+  <modelVersion>4.0.0</modelVersion>
+  <groupId>org.youdatax.dsp</groupId>
+  <artifactId>youdatax-dsp-transfer-process-lib-validation</artifactId>
+  <version>0.0.3.0</version>
+  <name>yospace-dsp-transfer-process-validation-lib</name>
+  <description>yospace-dsp-transfer-process-validation-lib</description>
+  
+  <dependencies>
+<!--    api(project(":data-protocols:dsp:dsp-spi"))-->
+      <dependency>
+        <groupId>com.yospace.dsp</groupId>
+        <artifactId>yospace-dsp-core-spi</artifactId>
+        <version>0.0.3-SNAPSHOT</version>
+      </dependency>
+<!--    implementation(project(":core:common:lib:validator-lib"))-->
+      <dependency>
+        <groupId>com.yospace.core</groupId>
+        <artifactId>yospace-core-lib-validator</artifactId>
+        <version>0.0.3-SNAPSHOT</version>
+      </dependency>
+      
+<!--    testImplementation(project(":core:common:junit"))  -->
+      <dependency>
+        <groupId>org.eclipse.edc</groupId>
+        <artifactId>junit</artifactId>
+        <version>0.18.0</version>
+      </dependency>    
+  </dependencies>  
+</project>
