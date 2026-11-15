@@ -2,7 +2,7 @@
   <modelVersion>4.0.0</modelVersion>
   <groupId>org.youdatax.dsp</groupId>
   <artifactId>youdatax-dsp-core-spi-http</artifactId>
-  <version>0.0.3-SNAPSHOT</version>
+  <version>0.0.4-SNAPSHOT</version>
   <name>yospace-dsp-http-spi</name>
   <description>yospace-dsp-http-spi</description>
   
@@ -21,9 +21,9 @@
       </dependency>    
 <!--    api(project(":data-protocols:dsp:dsp-spi"))-->
       <dependency>
-        <groupId>com.yospace.dsp</groupId>
-        <artifactId>yospace-dsp-core-spi</artifactId>
-        <version>0.0.3-SNAPSHOT</version>
+        <groupId>org.youdatax.dsp</groupId>
+        <artifactId>youdatax-dsp-core-spi</artifactId>
+        <version>0.0.4-SNAPSHOT</version>
       </dependency>
 <!--    api(libs.okhttp)
 okhttp = { module = "com.squareup.okhttp3:okhttp", version.ref = "okhttp" }--> 

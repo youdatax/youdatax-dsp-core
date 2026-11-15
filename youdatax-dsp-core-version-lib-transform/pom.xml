@@ -2,7 +2,7 @@
   <modelVersion>4.0.0</modelVersion>
   <groupId>org.youdatax.dsp</groupId>
   <artifactId>youdatax-dsp-core-version-lib-transform</artifactId>
-  <version>0.0.3-SNAPSHOT</version>
+  <version>0.0.4-SNAPSHOT</version>
   <name>yospace-dsp-core-version-transform-lib</name>
   <description>yospace-dsp-core-version-transform-lib</description>
 
@@ -25,9 +25,9 @@
       </dependency>    
 <!--    api(project(":data-protocols:dsp:dsp-spi"))-->
       <dependency>
-        <groupId>com.yospace.dsp</groupId>
-        <artifactId>yospace-dsp-core-spi</artifactId>
-        <version>0.0.3-SNAPSHOT</version>
+        <groupId>org.youdatax.dsp</groupId>
+        <artifactId>youdatax-dsp-core-spi</artifactId>
+        <version>0.0.4-SNAPSHOT</version>
       </dependency>    
 
 <!--    testImplementation(project(":core:common:junit"))-->
