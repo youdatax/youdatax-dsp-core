@@ -2,7 +2,7 @@
   <modelVersion>4.0.0</modelVersion>
   <groupId>org.youdatax.dsp</groupId>
   <artifactId>youdatax-dsp-core-spi-http</artifactId>
-  <version>0.0.4-SNAPSHOT</version>
+  <version>0.0.4.0</version>
   <name>yospace-dsp-http-spi</name>
   <description>yospace-dsp-http-spi</description>
   
@@ -23,7 +23,7 @@
       <dependency>
         <groupId>org.youdatax.dsp</groupId>
         <artifactId>youdatax-dsp-core-spi</artifactId>
-        <version>0.0.4-SNAPSHOT</version>
+        <version>0.0.4.0</version>
       </dependency>
 <!--    api(libs.okhttp)
 okhttp = { module = "com.squareup.okhttp3:okhttp", version.ref = "okhttp" }--> 

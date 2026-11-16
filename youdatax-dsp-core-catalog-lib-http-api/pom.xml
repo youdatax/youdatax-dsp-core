@@ -2,7 +2,7 @@
   <modelVersion>4.0.0</modelVersion>
   <groupId>org.youdatax.dsp</groupId>
   <artifactId>youdatax-dsp-core-catalog-lib-http-api</artifactId>
-  <version>0.0.4-SNAPSHOT</version>
+  <version>0.0.4.0</version>
   <name>yospace-dsp-catalog-http-api-lib</name>
   <description>yospace-dsp-catalog-http-api-lib</description>
   
@@ -26,13 +26,13 @@
       <dependency>
         <groupId>org.youdatax.dsp</groupId>
         <artifactId>youdatax-dsp-core-spi</artifactId>
-        <version>0.0.4-SNAPSHOT</version>
+        <version>0.0.4.0</version>
       </dependency>
 <!--    api(project(":data-protocols:dsp:dsp-http-spi"))-->
       <dependency>
         <groupId>org.youdatax.dsp</groupId>
         <artifactId>youdatax-dsp-core-spi-http</artifactId>
-        <version>0.0.4-SNAPSHOT</version>
+        <version>0.0.4.0</version>
       </dependency>    
 <!--    api(project(":spi:common:json-ld-spi"))-->
        <dependency>

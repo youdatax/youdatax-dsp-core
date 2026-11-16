@@ -2,7 +2,7 @@
   <modelVersion>4.0.0</modelVersion>
   <groupId>org.youdatax.dsp</groupId>
   <artifactId>youdatax-dsp-negotiation-lib-transform</artifactId>
-  <version>0.0.4-SNAPSHOT</version>
+  <version>0.0.4.0</version>
   <name>yospace-dsp-negotiation-transform-lib</name>
   <description>yospace-dsp-negotiation-transform-lib</description>
   
@@ -17,7 +17,7 @@
       <dependency>
         <groupId>org.youdatax.dsp</groupId>
         <artifactId>youdatax-dsp-core-spi</artifactId>
-        <version>0.0.4-SNAPSHOT</version>
+        <version>0.0.4.0</version>
       </dependency>    
 <!--    api(project(":spi:control-plane:contract-spi"))-->
       <dependency>

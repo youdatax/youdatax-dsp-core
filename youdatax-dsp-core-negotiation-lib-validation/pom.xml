@@ -2,7 +2,7 @@
   <modelVersion>4.0.0</modelVersion>
   <groupId>org.youdatax.dsp</groupId>
   <artifactId>youdatax-dsp-core-negotiation-lib-validation</artifactId>
-  <version>0.0.4-SNAPSHOT</version>
+  <version>0.0.4.0</version>
   <name>yospace-dsp-negotiation-validation-lib</name>
   <description>yospace-dsp-negotiation-validation-lib</description>
   
@@ -11,7 +11,7 @@
       <dependency>
         <groupId>org.youdatax.dsp</groupId>
         <artifactId>youdatax-dsp-core-spi</artifactId>
-        <version>0.0.4-SNAPSHOT</version>
+        <version>0.0.4.0</version>
       </dependency>
 <!--    implementation(project(":core:common:lib:validator-lib"))-->
       <dependency>
