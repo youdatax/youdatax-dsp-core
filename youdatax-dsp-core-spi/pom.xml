@@ -9,9 +9,9 @@
   <dependencies>
 <!--    api(project(":spi:control-plane:control-plane-spi"))-->
       <dependency>
-        <groupId>com.yospace.controlplane</groupId>
-        <artifactId>yospace-control-plane-spi</artifactId>  
-        <version>0.0.3-SNAPSHOT</version>
+        <groupId>org.youdatax.controlp</groupId>
+        <artifactId>youdatax-control-plane-spi</artifactId>  
+        <version>0.0.4.0</version>
       </dependency>
 <!--    implementation(project(":extensions:common:json-ld"))  
       <dependency>

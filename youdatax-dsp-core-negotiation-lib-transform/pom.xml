@@ -9,9 +9,9 @@
   <dependencies>
 <!--    api(project(":spi:common:json-ld-spi"))-->
       <dependency>
-        <groupId>com.yospace.core</groupId>
-        <artifactId>yospace-core-spi</artifactId>
-        <version>0.0.3-SNAPSHOT</version>
+        <groupId>org.youdatax.core</groupId>
+        <artifactId>youdatax-core-spi-common</artifactId>
+        <version>0.0.3.0</version>
       </dependency>
 <!--    api(project(":data-protocols:dsp:dsp-spi"))-->
       <dependency>
@@ -21,15 +21,15 @@
       </dependency>    
 <!--    api(project(":spi:control-plane:contract-spi"))-->
       <dependency>
-        <groupId>com.yospace.controlplane</groupId>
-        <artifactId>yospace-control-plane-spi-contract</artifactId>
-        <version>0.0.3-SNAPSHOT</version>
+        <groupId>org.youdatax.controlp</groupId>
+        <artifactId>youdatax-control-plane-spi-contract</artifactId>
+        <version>0.0.4.0</version>
       </dependency>    
 <!--    implementation(project(":core:common:lib:transform-lib"))-->
       <dependency>
-        <groupId>com.yospace.core</groupId>
-        <artifactId>yospace-core-lib-transform</artifactId>
-        <version>0.0.3-SNAPSHOT</version>
+        <groupId>org.youdatax.common</groupId>
+        <artifactId>youdatax-common-lib-transform</artifactId>
+        <version>0.0.4.0</version>
       </dependency>
       
 <!--    testImplementation(project(":core:common:junit"))-->
